@@ -57,7 +57,7 @@ public class Sel
 	    }while(ch>0&&ch<=2);
 	}
 
-	public static void emailSender(String em, String text) 
+	public static void emailSender(String em, String text)//Commons Api implementation
 	{
 		Email email = new SimpleEmail();
 		email.setHostName("smtp.gmail.com");//specifying which email service provider
