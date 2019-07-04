@@ -16,3 +16,4 @@ As a part of my GRIP Phase 2 technology task, I have implemented Selenium Automa
     * [Google homepage](https://youtu.be/HwGPuvJrJvA?t=176)
     * [Another website](https://youtu.be/HwGPuvJrJvA?t=266)
   * [Image Download](https://youtu.be/HwGPuvJrJvA?t=379)
+* [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:6552637325212508160)
