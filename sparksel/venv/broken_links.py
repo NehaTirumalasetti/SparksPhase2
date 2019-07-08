@@ -26,10 +26,12 @@ def get_links(driver):
     return
 
 
-if __name__ == '__main__':
-
+def main():
     url = "http://www.newtours.demoaut.com/"
     driver = __init__driver(url)
     get_links(driver)
+    return
 
 
+if __name__ == '__main__':
+    main()

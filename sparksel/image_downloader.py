@@ -57,13 +57,18 @@ def download_images(imgs):
                 print()
 
 
-if __name__ == '__main__':
+def main():
 
     print("Which images would you like to download?")
     search_text = input()
-    url = "https://www.google.co.in/search?q="+search_text+"&source=lnms&tbm=isch"
+    url = "https://www.google.co.in/search?q=" + search_text + "&source=lnms&tbm=isch"
 
     driver = init_driver()
     img = get_img_links(driver, url)
     download_images(img)
     driver.close()
+
+
+if __name__ == '__main__':
+
+    main()

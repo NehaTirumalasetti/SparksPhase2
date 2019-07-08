@@ -45,12 +45,10 @@ def compose(driver, ema, sub, body):
     return
 
 
-if __name__ == '__main__':
-
-
-    #ema = input("Enter recipients full email id")
-    #sub = input("Enter subject of mail")
-    #body = input("Enter body of mail")
+def main():
+    # ema = input("Enter recipients full email id")
+    # sub = input("Enter subject of mail")
+    # body = input("Enter body of mail")
     ema = 'ntirumalasetti@gmail.com'
     sub = 'Test Mail'
     body = 'Look at the stars\nLook how they shine for you\nAnd all the things that you do'
@@ -58,3 +56,7 @@ if __name__ == '__main__':
     driver.get('https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
     login(driver)
     compose(driver, ema, sub, body)
+
+
+if __name__ == '__main__':
+    main()
